@@ -1,4 +1,6 @@
 import "./App.css";
+// import { ArtSection } from "./ui/sections/art-section";
+import { AvatarSection } from "./ui/sections/avatar-section";
 
 function App() {
   const starsAnimation = Array.from({ length: 10 }, (_, i) => i + 1).map(
@@ -7,7 +9,9 @@ function App() {
 
   return (
     <div>
-      <div className="flex justify-center text-2xl">Mysh</div>
+      <div className="flex justify-center">
+        <AvatarSection />
+      </div>
       <section>{starsAnimation}</section>
     </div>
   );
