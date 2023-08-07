@@ -1,3 +1,3 @@
 export function ArtSection() {
-  return <div className="flex justify-center text-5xl">Mysh</div>;
+  return <div className="w-full max-w-[1000px]">Mysh</div>;
 }

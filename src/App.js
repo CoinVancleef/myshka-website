@@ -1,5 +1,5 @@
 import "./App.css";
-// import { ArtSection } from "./ui/sections/art-section";
+import { ArtSection } from "./ui/sections/art-section";
 import { AvatarSection } from "./ui/sections/avatar-section";
 
 function App() {
@@ -9,8 +9,9 @@ function App() {
 
   return (
     <div>
-      <div className="flex justify-center">
+      <div className="flex flex-col items-center justify-center gap-5">
         <AvatarSection />
+        <ArtSection />
       </div>
       <section>{starsAnimation}</section>
     </div>
