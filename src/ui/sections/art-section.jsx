@@ -6,10 +6,21 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 import { EffectFade, Navigation, Pagination } from "swiper/modules";
+import { regularArt } from "../../images";
 
 export function ArtSection() {
+  const images = regularArt.map((image) => (
+    <SwiperSlide>
+      <img src={image} alt="art" />
+    </SwiperSlide>
+  ));
+  const imagesShuffled = images
+    .map((value) => ({ value, sort: Math.random() }))
+    .sort((a, b) => a.sort - b.sort)
+    .map(({ value }) => value);
+
   return (
-    <div className="w-full max-w-[1000px] h-[2200px] flex flex-col gap-5 jusify-center items-center">
+    <div className="w-full max-w-[1200px] flex flex-col gap-5 jusify-center items-center">
       <div className="text-5xl">Some of my artworks</div>
       <>
         <Swiper
@@ -21,19 +32,9 @@ export function ArtSection() {
           }}
           modules={[EffectFade, Navigation, Pagination]}
           className="mySwiper"
+          autoHeight={true}
         >
-          <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-1.jpg" alt="d" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-2.jpg" alt="d" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-3.jpg" alt="d" />
-          </SwiperSlide>
-          <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-          </SwiperSlide>
+          {imagesShuffled}
         </Swiper>
       </>
     </div>
