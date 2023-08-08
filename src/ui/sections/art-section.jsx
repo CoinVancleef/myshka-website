@@ -20,8 +20,8 @@ export function ArtSection() {
     .map(({ value }) => value);
 
   return (
-    <div className="w-full max-w-[1200px] flex flex-col gap-5 jusify-center items-center">
-      <div className="text-5xl">Some of my artworks</div>
+    <div className="w-full max-w-[1200px] flex flex-col gap-5 jusify-center items-center max-sm:px-2">
+      <div className="text-5xl max-sm:text-3xl">Some of my artworks</div>
       <>
         <Swiper
           spaceBetween={30}

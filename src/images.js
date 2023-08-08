@@ -16,7 +16,6 @@ import th10 from "./assets/twc-art/th10_survival.png";
 import th16 from "./assets/twc-art/th16_survival.png";
 import th16sc from "./assets/twc-art/th16_scoring.png";
 import yuyu from "./assets/twc-art/yuyuko.jpg";
-import kag from "./assets/twc-art/kag.png";
 
 export const regularArt = [
   satokoi,
@@ -32,4 +31,4 @@ export const regularArt = [
   yuyuko,
 ];
 
-export const twcArt = [th7, th10, th16, th16sc, th9, yuyu, kag];
+export const twcArt = [th7, th10, th16, th16sc, th9, yuyu];

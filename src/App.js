@@ -1,6 +1,8 @@
 import "./App.css";
 import { ArtSection } from "./ui/sections/art-section";
 import { AvatarSection } from "./ui/sections/avatar-section";
+import { Footer } from "./ui/sections/footer";
+import { TwcSection } from "./ui/sections/twc-section";
 
 function App() {
   const starsAnimation = Array.from({ length: 10 }, (_, i) => i + 1).map(
@@ -9,9 +11,11 @@ function App() {
 
   return (
     <div>
-      <div className="flex flex-col items-center justify-center gap-5">
+      <div className="flex flex-col items-center justify-center gap-10">
         <AvatarSection />
         <ArtSection />
+        <TwcSection />
+        <Footer />
       </div>
       <section>{starsAnimation}</section>
     </div>
