@@ -18,6 +18,12 @@ import th16 from "./assets/twc-art/th16_survival.png";
 import th16sc from "./assets/twc-art/th16_scoring.png";
 import yuyu from "./assets/twc-art/yuyuko.jpg";
 
+import yuyuHype from "./assets/twitch-emotes/yuyuhype.png";
+import yuyuCry from "./assets/twitch-emotes/cryemote.png";
+import yuyuScared from "./assets/twitch-emotes/emotescare.png";
+
+import twitch from "./assets/icons/twitch.png";
+
 export const regularArt = [
   satokoi,
   alice,
@@ -34,3 +40,7 @@ export const regularArt = [
 ];
 
 export const twcArt = [th7, th10, th16, th16sc, th9, yuyu];
+
+export const twitchEmotes = [yuyuHype, yuyuScared, yuyuCry];
+
+export { twitch };
