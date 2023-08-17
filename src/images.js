@@ -39,7 +39,14 @@ export const regularArt = [
   pcb,
 ];
 
-export const twcArt = [th7, th10, th16, th16sc, th9, yuyu];
+export const twcArt = [
+  { image: th7, scaleDownOptions: "" },
+  { image: th10, scaleDownOptions: "" },
+  { image: th16, scaleDownOptions: "" },
+  { image: th16sc, scaleDownOptions: "" },
+  { image: th9, scaleDownOptions: "" },
+  { image: yuyu, scaleDownOptions: "" },
+];
 
 export const twitchEmotes = [yuyuHype, yuyuScared, yuyuCry];
 

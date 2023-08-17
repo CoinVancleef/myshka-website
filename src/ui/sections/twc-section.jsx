@@ -8,9 +8,9 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { twcArt } from "../../images";
 
 export function TwcSection() {
-  const images = twcArt.map((image) => (
+  const images = twcArt.map((img) => (
     <SwiperSlide>
-      <img src={image} alt="art" />
+      <img className={img.scaleDownOptions} src={img.image} alt="art" />
     </SwiperSlide>
   ));
 
