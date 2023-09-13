@@ -10,7 +10,7 @@ import yuyuchoco from "./assets/art/yuyuchoco.jpg";
 import yuyukari from "./assets/art/yuyukari.jpg";
 import yuyuko from "./assets/art/yuyuko.jpg";
 import pcb from "./assets/art/pcb.jpg";
-import cirnorabbits from "./assets/art/cirnorabbits.jpg";
+import cirnorabbits from "./assets/art/cirnorabbits.png";
 
 import th7 from "./assets/twc-art/th07_survival.png";
 import th9 from "./assets/twc-art/th09_scoring.png";
