@@ -17,8 +17,8 @@ export function Footer() {
         >
           Pixiv
         </a>
-        <a target="_blank" rel="noreferrer" href="https://ko-fi.com/myshkachan">
-          Kofi
+        <a target="_blank" rel="noreferrer" href="https://boosty.to/mysh">
+          Boosty
         </a>
       </div>
     </div>

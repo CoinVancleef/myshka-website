@@ -2,7 +2,7 @@ import mysh from "../../assets/icons/mysh.jpg";
 import kag from "../../assets/twc-art/kag.png";
 import twitter from "../../assets/icons/twitter.png";
 import pixiv from "../../assets/icons/pixiv.png";
-import kofi from "../../assets/icons/kofi.png";
+import boosty from "../../assets/icons/boosty.png";
 
 export function AvatarSection() {
   return (
@@ -44,15 +44,11 @@ export function AvatarSection() {
               alt="pixiv"
             />
           </a>
-          <a
-            target="_blank"
-            rel="noreferrer"
-            href="https://ko-fi.com/myshkachan"
-          >
+          <a target="_blank" rel="noreferrer" href="https://boosty.to/mysh">
             <img
               className="w-12 h-12 max-sm:w-8 max-sm:h-8"
-              src={kofi}
-              alt="kofi"
+              src={boosty}
+              alt="boosty"
             />
           </a>
         </div>
