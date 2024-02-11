@@ -3,6 +3,7 @@ import { ArtSection } from "../ui/sections/art-section";
 import { AvatarSection } from "../ui/sections/avatar-section";
 import { Footer } from "../ui/sections/footer";
 import { Header } from "../ui/sections/header";
+import { MangaSection } from "../ui/sections/manga-section";
 import { TwcSection } from "../ui/sections/twc-section";
 import { TwitchSection } from "../ui/sections/twitch-section";
 
@@ -18,6 +19,7 @@ function Landing() {
         <AvatarSection />
         <ArtSection />
         <TwcSection />
+        <MangaSection />
         <TwitchSection />
         <Footer />
       </div>
