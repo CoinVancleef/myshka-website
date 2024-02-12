@@ -8,10 +8,6 @@ import { TwcSection } from "../ui/sections/twc-section";
 import { TwitchSection } from "../ui/sections/twitch-section";
 
 function ArtGallery() {
-  const starsAnimation = Array.from({ length: 10 }, (_, i) => i + 1).map(
-    (e) => <span></span>
-  );
-
   return (
     <div>
       <div className="flex flex-col items-center justify-center gap-10">
@@ -23,7 +19,6 @@ function ArtGallery() {
         <TwitchSection />
         <Footer />
       </div>
-      <section>{starsAnimation}</section>
     </div>
   );
 }

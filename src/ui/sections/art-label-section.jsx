@@ -1,6 +1,6 @@
 export function ArtLabelSection() {
   return (
-    <div className="text-5xl max-sm:text-3xl text-center">
+    <div className="text-5xl max-sm:text-2xl text-center">
       Welcome to my art gallery!
       <br /> If you want to see more, check out my{" "}
       <a
