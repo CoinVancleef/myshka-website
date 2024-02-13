@@ -11,6 +11,8 @@ import yuyukari from "./assets/art/yuyukari.jpg";
 import yuyuko from "./assets/art/yuyuko.jpg";
 import pcb from "./assets/art/pcb.jpg";
 import cirnorabbits from "./assets/art/cirnorabbits.png";
+import yukariyuyumanga from "./assets/art/yukariyuyumanga.jpg";
+import kutaka from "./assets/art/kutaka.jpg";
 
 import th7 from "./assets/twc-art/th07_survival.png";
 import th9 from "./assets/twc-art/th09_scoring.png";
@@ -22,6 +24,16 @@ import yuyu from "./assets/twc-art/yuyuko.jpg";
 import yuyuHype from "./assets/twitch-emotes/yuyuhype.png";
 import yuyuCry from "./assets/twitch-emotes/cryemote.png";
 import yuyuScared from "./assets/twitch-emotes/emotescare.png";
+
+import m1 from "./assets/manga/m1.jpg";
+import m2 from "./assets/manga/m2.jpg";
+import m3 from "./assets/manga/m3.jpg";
+import m4 from "./assets/manga/m4.jpg";
+import m5 from "./assets/manga/m5.jpg";
+import m6 from "./assets/manga/m6.jpg";
+import m7 from "./assets/manga/m7.jpg";
+import m8 from "./assets/manga/m8.jpg";
+import m9 from "./assets/manga/m9.jpg";
 
 import twitch from "./assets/icons/twitch.png";
 
@@ -39,6 +51,8 @@ export const regularArt = [
   yuyuko,
   pcb,
   cirnorabbits,
+  yukariyuyumanga,
+  kutaka,
 ];
 
 export const twcArt = [
@@ -51,5 +65,7 @@ export const twcArt = [
 ];
 
 export const twitchEmotes = [yuyuHype, yuyuScared, yuyuCry];
+
+export const manga = [m1, m2, m3, m4, m5, m6, m7, m8, m9];
 
 export { twitch };

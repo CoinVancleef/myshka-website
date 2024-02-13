@@ -16,7 +16,7 @@ export function TwcSection() {
 
   return (
     <div className="w-full max-w-[1200px] flex flex-col gap-5 jusify-center items-center mt-10 max-sm:mt-4 max-sm:p-2">
-      <div className="text-5xl max-sm:text-3xl">
+      <div className="text-5xl max-sm:text-2xl text-center">
         My artworks for TWC 2023 matches
       </div>
       <>
