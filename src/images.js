@@ -13,6 +13,12 @@ import pcb from "./assets/art/pcb.jpg";
 import cirnorabbits from "./assets/art/cirnorabbits.png";
 import yukariyuyumanga from "./assets/art/yukariyuyumanga.jpg";
 import kutaka from "./assets/art/kutaka.jpg";
+import chennailspr from "./assets/art/chennailspr.png";
+import ganchen from "./assets/art/ganchen.png";
+import raiden from "./assets/art/raiden.png";
+import scarapleadingface from "./assets/art/scarapleadingface.png";
+import valentines from "./assets/art/valentines.png";
+import myshheart from "./assets/art/myshheart.png";
 
 import th7 from "./assets/twc-art/th07_survival.png";
 import th9 from "./assets/twc-art/th09_scoring.png";
@@ -53,6 +59,12 @@ export const regularArt = [
   cirnorabbits,
   yukariyuyumanga,
   kutaka,
+  chennailspr,
+  ganchen,
+  myshheart,
+  raiden,
+  scarapleadingface,
+  valentines,
 ];
 
 export const twcArt = [
