@@ -6,6 +6,7 @@ import { Header } from "../ui/sections/header";
 import { MangaSection } from "../ui/sections/manga-section";
 import { TwitchSection } from "../ui/sections/twitch-section";
 import { FourSeasonsSection } from "../ui/sections/four-seasons-section";
+import { YouTubeShortsSection } from "../ui/sections/youtube-shorts-section";
 
 function Landing() {
   const starsAnimation = Array.from({ length: 10 }, (_, i) => i + 1).map(
@@ -20,6 +21,7 @@ function Landing() {
         <ArtSection />
         <FourSeasonsSection />
         <MangaSection />
+        <YouTubeShortsSection />
         <TwitchSection />
         <Footer />
       </div>

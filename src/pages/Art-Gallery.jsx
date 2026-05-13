@@ -8,6 +8,7 @@ import { OsuSection } from "../ui/sections/osu-section";
 import { TwcSection } from "../ui/sections/twc-section";
 import { TwitchSection } from "../ui/sections/twitch-section";
 import { FourSeasonsSection } from "../ui/sections/four-seasons-section";
+import { YouTubeShortsSection } from "../ui/sections/youtube-shorts-section";
 
 function ArtGallery() {
   return (
@@ -20,6 +21,7 @@ function ArtGallery() {
         <OsuSection />
         <TwcSection />
         <MangaSection />
+        <YouTubeShortsSection />
         <TwitchSection />
         <Footer />
       </div>
