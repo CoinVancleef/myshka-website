@@ -7,7 +7,7 @@ import boosty from "../../assets/icons/boosty.png";
 export function AvatarSection() {
   return (
     <div className="w-full max-w-[1000px] flex justify-between p-4 rounded-lg">
-      <div className="relative p-4 flex items-center gap-4 shadow-md max-w-[400px] text-nowrap">
+      <div className="relative p-4 flex items-center gap-4 shadow-md max-w-[400px] ">
         <div className="text-3xl max-sm:text-xl">
           Artist, touhou gamer, Love Live! and Project Sekai fan
         </div>
