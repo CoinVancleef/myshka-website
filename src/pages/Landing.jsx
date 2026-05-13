@@ -4,12 +4,12 @@ import { AvatarSection } from "../ui/sections/avatar-section";
 import { Footer } from "../ui/sections/footer";
 import { Header } from "../ui/sections/header";
 import { MangaSection } from "../ui/sections/manga-section";
-import { TwcSection } from "../ui/sections/twc-section";
 import { TwitchSection } from "../ui/sections/twitch-section";
+import { FourSeasonsSection } from "../ui/sections/four-seasons-section";
 
 function Landing() {
   const starsAnimation = Array.from({ length: 10 }, (_, i) => i + 1).map(
-    (e) => <span></span>
+    (e) => <span></span>,
   );
 
   return (
@@ -18,7 +18,7 @@ function Landing() {
         <Header currentPage={"home"} />
         <AvatarSection />
         <ArtSection />
-        <TwcSection />
+        <FourSeasonsSection />
         <MangaSection />
         <TwitchSection />
         <Footer />

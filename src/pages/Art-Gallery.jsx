@@ -4,6 +4,7 @@ import { ArtSection } from "../ui/sections/art-section";
 import { Footer } from "../ui/sections/footer";
 import { Header } from "../ui/sections/header";
 import { MangaSection } from "../ui/sections/manga-section";
+import { OsuSection } from "../ui/sections/osu-section";
 import { TwcSection } from "../ui/sections/twc-section";
 import { TwitchSection } from "../ui/sections/twitch-section";
 
@@ -14,6 +15,7 @@ function ArtGallery() {
         <Header currentPage={"art-gallery"} />
         <ArtLabelSection />
         <ArtSection noLabel={true} />
+        <OsuSection />
         <TwcSection />
         <MangaSection />
         <TwitchSection />

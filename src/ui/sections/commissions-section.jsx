@@ -3,6 +3,7 @@ import tsukasa2 from "../../assets/commissions/tsukasa2.jpg";
 import mokouball from "../../assets/commissions/mokouball.jpg";
 import background from "../../assets/commissions/background.png";
 import hinatori from "../../assets/art/hinatori.jpg";
+import commission125404954 from "../../assets/commissions/125404954_p0.png";
 
 export function CommissionSection() {
   return (
@@ -18,6 +19,12 @@ export function CommissionSection() {
         <img className="w-full max-w-[800px]" src={mokouball} alt="mokouball" />
         <p className="text-center">Hina and Nitori with cute sukusuku</p>
         <img src={hinatori} alt="hinatori" />
+        <p className="text-center">Tsukasa phone wallpaper</p>
+        <img
+          className="w-full max-w-[450px]"
+          src={commission125404954}
+          alt="commission"
+        />
       </div>
     </div>
   );
